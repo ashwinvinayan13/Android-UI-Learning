@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#0A1983"
+    android:orientation="vertical">
+
+  <TextView
+    android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:textColor="@color/black"
+      android:textAllCaps="true"
+      android:text="INSTAGRAM"
+      android:paddingRight="50dp"
+      android:layout_marginRight="25dp"
+      android:background="#3AF311 "
+      android:textSize="24sp">
+  </TextView>
+  <TextView
+      android:id="@+id/chat_heading"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="feed"
+      android:padding="50dp"
+      android:layout_margin="50dp"
+      android:textColor="#F5180A "
+      android:textAllCaps="false"
+      android:background="#F3E7E7 "
+      android:textSize="50sp">
+
+  </TextView>
+
+  <EditText
+      android:id="@+id/plain_text_input"
+      android:layout_height="55dp"
+      android:layout_width="match_parent"
+      android:textColor="#36F00C"
+      android:inputType="text"/>
+  </LinearLayout>
