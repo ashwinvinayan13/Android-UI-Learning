@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    >
     <LinearLayout
         android:id="@+id/rl_2"
         android:layout_width="match_parent"
@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             android:text="Supplements"
             android:textSize="50sp"/>
-
     </LinearLayout>
     <RelativeLayout
         android:id="@+id/rl_1"
