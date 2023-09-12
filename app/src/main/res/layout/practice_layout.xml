@@ -35,8 +35,8 @@
             android:layout_height="wrap_content"
             android:text="Lorem ipsum is simply dummy "
             android:layout_alignParentEnd="true"
-            android:layout_alignBottom="@id/tv2"
             android:textSize="10sp"
-            android:paddingTop="5dp"/>
+            android:paddingTop="5dp"
+            android:layout_below="@id/tv2"/>
     </RelativeLayout>
 </LinearLayout>
