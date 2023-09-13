@@ -1,42 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:id="@+id/main_ll"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     android:orientation="vertical">
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="playlist"
-        android:textSize="50sp"/>
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="playlist"
+    android:layout_marginTop="27dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="31dp"
+    android:textSize="36sp"
+    android:textColor="#FFFFFF"/>
     <RelativeLayout
         android:id="@+id/rl_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border">
         <ImageView
             android:id="@+id/img_1"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/anim"/>
+            android:layout_width="83dp"
+            android:layout_height="81dp"
+            android:src="@drawable/anim"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="18dp"/>
         <TextView
             android:id="@+id/tv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Heart storm (feat Nao)"
-            android:layout_alignParentEnd="true"
-            android:textSize="20sp"
-            android:textAlignment="center"/>
+            android:layout_toEndOf="@id/img_1"
+            android:text="Heart Storm (feat. NAO)"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:textSize="17sp"/>
         <TextView
-            android:id="@+id/tv3"
+            android:id="@+id/tv_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lorem ipsum is simply dummy "
-            android:layout_alignParentEnd="true"
-            android:textSize="10sp"
-            android:paddingTop="5dp"
-            android:layout_below="@id/tv2"/>
+            android:layout_toEndOf="@id/img_1"
+            android:layout_below="@id/tv2"
+            android:text="lorem ipsum is sipmly dummy ipsum has been industry,s standard dummy"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"/>
     </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border">
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="83dp"
+            android:layout_height="81dp"
+            android:src="@drawable/anim"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="18dp"/>
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_2"
+            android:text="Heart Storm (feat. NAO)"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_2"
+            android:layout_below="@id/tv_4"
+            android:text="lorem ipsum is sipmly dummy ipsum has been industry,s standard dummy"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+    android:id="@+id/rl_3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="42dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/border">
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="83dp"
+        android:layout_height="81dp"
+        android:src="@drawable/anim"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="18dp"/>
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_3"
+        android:text="Heart Storm (feat. NAO)"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="19dp"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_3"
+        android:layout_below="@id/tv6"
+        android:text="lorem ipsum is sipmly dummy ipsum has been industry,s standard dummy"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"/>
+</RelativeLayout>
 </LinearLayout>
